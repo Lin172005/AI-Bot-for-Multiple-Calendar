@@ -1,0 +1,26 @@
+# Project
+node_modules
+.env
+*.log
+**/__pycache__/
+**/.venv/
+**/.env
+**/dist
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/htmlcov/
+**/coverage.xml
+**/build/
+**/*.sqlite3
+**/auth.json
+**/user-data/
+**/logs/
+**/data/summaries/
+**/data/transcripts/
+**/rag_store/
+**/data/captions.log
+.vscode/
+.idea/
+.DS_Store
