@@ -37,7 +37,7 @@ The API will be available at http://localhost:8010.
 
 If you only need a lightweight captions endpoint for the bot:
 
-The captions endpoint will be available at http://localhost:8010/captions
+The captions endpoint will be available at http://localhost:5000/captions
 .
 
 ## Meet Bot (Playwright)
@@ -80,4 +80,5 @@ Create frontend/.env with:
 - Structured summaries are stored in Supabase pgvector
 - RAG pipeline retrieves relevant meeting context
 - Groq Llama 3.3 70B used for summary and contextual QA
+
 
